@@ -1,0 +1,146 @@
+body,footer{
+    font-family: 'Agency FB', arial;
+    font-style: normal;
+}
+.header{
+    height: 200px;
+    background-color: #f7c65c;
+    margin: 0px;
+}
+.logo{
+    float: left;
+    max-height: 100px;
+    margin: 20px;
+    margin-top:40px;
+    border-right: 2px;
+    
+}
+.title{
+    font-size: 70px;
+    float: left;
+    padding-left:20px;
+    margin-top:70px;
+}
+.menu-picture{
+    float: right;
+    max-height: 100px;
+    margin: 20px;
+    margin-top:40px;
+    float: right;
+
+}
+.content{
+    display: flex;
+    flex-direction: column;
+
+}
+.fahrten{
+    
+    background-color: #f5f5f5;
+    box-shadow: black;
+    margin: 20px;
+    position: relative;
+}
+#fahrten-title{
+    text-align: center;
+    font-size: 50px;
+}
+#haltestellen-title{
+    font-size: 50px;
+}
+.fahrten-content{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.liste{
+    list-style: none;
+    font-size: 60px; 
+}
+.linke-spalte{
+    width: 20%;
+    
+}
+.rechte-spalte{
+    width: 80%;
+}
+.aktuelle-linie-container{
+    width:100px;
+    height: 100px;
+    border-radius:50px;
+    font-size:50px;
+    font-style: bold;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background:#f7c65c;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+.aktuelle-linie{
+    margin: 0px;
+}
+.listelement{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+/* .textleft{
+    flex-shrink: 2;
+}
+.textright{
+    flex-grow: 4;
+} */
+
+/*  Second list: 
+    Alle Haltestellen
+
+*/
+.haltestellen{
+    text-align: center;
+    background-color: #f5f5f5;
+    box-shadow: black;
+    margin: 20px;
+}
+.liste-h{
+    font-size: 45px;
+}
+.inactive{
+    color: #c1c1c1;
+    
+}
+.listelement-h-i{
+    list-style: url('Bilder/inactive.png');
+}
+.listelement-h-a{
+    list-style: url('Bilder/dreieck.png');
+}
+.listelement-h-n{
+    list-style: url('Bilder/notreached.png');
+}
+.listelement-h-t{
+    list-style: url('Bilder/target.png');
+}
+.active{
+    color: #f7c65c;
+}
+.notreached{
+    color: black;
+}
+
+
+/* Footer */
+
+.contact{
+    font-size: 50px;
+    text-align: center;
+    margin: 20px;
+}
+.contact h2{
+    text-align: center;
+}
+.contact p{
+    margin-top:80px;
+}
